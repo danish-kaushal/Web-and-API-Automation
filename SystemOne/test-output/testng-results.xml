@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[C:\ADOWorkspace\Assignment\target\screenshots\com.systemone.functional.WebPortalAutomationTests\registerAccount.png]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-31T22:20:46 IST" name="Default suite" finished-at="2023-12-31T22:21:18 IST" duration-ms="32112">
+    <groups>
+    </groups>
+    <test started-at="2023-12-31T22:20:46 IST" name="Default test" finished-at="2023-12-31T22:21:18 IST" duration-ms="32112">
+      <class name="com.systemone.functional.WebPortalAutomationTests">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:com.systemone.functional.WebPortalAutomationTests@483f6d77]" started-at="2023-12-31T22:20:46 IST" name="launchbrowser" finished-at="2023-12-31T22:20:53 IST" duration-ms="6594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="registerAccount()[pri:1, instance:com.systemone.functional.WebPortalAutomationTests@483f6d77]" started-at="2023-12-31T22:20:53 IST" name="registerAccount" finished-at="2023-12-31T22:21:06 IST" duration-ms="12829" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Registration is unsuccessful]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Registration is unsuccessful
+at org.testng.Assert.fail(Assert.java:97)
+at com.systemone.functional.WebPortalAutomationTests.registerAccount(WebPortalAutomationTests.java:91)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAccount -->
+        <test-method is-config="true" signature="captureSummary(org.testng.ITestResult)[pri:0, instance:com.systemone.functional.WebPortalAutomationTests@483f6d77]" started-at="2023-12-31T22:21:06 IST" name="captureSummary" finished-at="2023-12-31T22:21:06 IST" duration-ms="109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registerAccount status=FAILURE method=WebPortalAutomationTests.registerAccount()[pri:1, instance:com.systemone.functional.WebPortalAutomationTests@483f6d77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[C:\ADOWorkspace\Assignment\target\screenshots\com.systemone.functional.WebPortalAutomationTests\registerAccount.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- captureSummary -->
+        <test-method signature="sortingFunctionality()[pri:2, instance:com.systemone.functional.WebPortalAutomationTests@483f6d77]" started-at="2023-12-31T22:21:06 IST" name="sortingFunctionality" finished-at="2023-12-31T22:21:09 IST" duration-ms="2954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortingFunctionality -->
+        <test-method is-config="true" signature="captureSummary(org.testng.ITestResult)[pri:0, instance:com.systemone.functional.WebPortalAutomationTests@483f6d77]" started-at="2023-12-31T22:21:09 IST" name="captureSummary" finished-at="2023-12-31T22:21:09 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortingFunctionality status=SUCCESS method=WebPortalAutomationTests.sortingFunctionality()[pri:2, instance:com.systemone.functional.WebPortalAutomationTests@483f6d77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureSummary -->
+        <test-method signature="contactForm()[pri:0, instance:com.systemone.functional.WebPortalAutomationTests@483f6d77]" started-at="2023-12-31T22:21:09 IST" name="contactForm" finished-at="2023-12-31T22:21:18 IST" depends-on-methods="com.systemone.functional.WebPortalAutomationTests.sortingFunctionality" duration-ms="9408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactForm -->
+        <test-method is-config="true" signature="captureSummary(org.testng.ITestResult)[pri:0, instance:com.systemone.functional.WebPortalAutomationTests@483f6d77]" started-at="2023-12-31T22:21:18 IST" name="captureSummary" finished-at="2023-12-31T22:21:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contactForm status=SUCCESS method=WebPortalAutomationTests.contactForm()[pri:0, instance:com.systemone.functional.WebPortalAutomationTests@483f6d77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureSummary -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.systemone.functional.WebPortalAutomationTests@483f6d77]" started-at="2023-12-31T22:21:18 IST" name="closeBrowser" finished-at="2023-12-31T22:21:18 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.systemone.functional.WebPortalAutomationTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
